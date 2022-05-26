@@ -1,0 +1,2 @@
+$query = "SELECT * FROM tbl_userdetails INNER JOIN tbl_usercredentials ON tbl_userdetails.user_id = tbl_usercredentials.user_id";
+    $sql = mysqli_query($conn, $query);
